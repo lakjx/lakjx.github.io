@@ -38,7 +38,7 @@ export function News({ zh, links }: { zh: boolean; links: Record<string,string> 
     { id: 'ant', date: '2026-07', emoji: '💼', text: zh ? <>我加入<a href="#internship">蚂蚁集团</a>，开始基座模型后训练强化学习方向的研究实习。</> : <>I joined <a href="#internship">Ant Group</a> as a research intern working on RL for foundation model post-training.</> },
     acceptance('2026-06', 'mac', 'Agentic MAC Protocols', 'IEEE TMC'),
     acceptance('2026-04', 'plc', 'Beyond Compromise', 'Findings of ACL 2026'),
-    acceptance('2025-08', 'pac', 'Pareto Actor-Critic', 'IEEE TMC'),
+    acceptance('2025-08', 'pac', 'PAC-MCoFL', 'IEEE TMC'),
     acceptance('2025-05', 'llm4mac', 'LLM4MAC', 'IEEE SPAWC 2025'),
   ];
   return <section id="news"><SectionHeading section="news">{zh ? '近期动态' : 'News'}</SectionHeading>
