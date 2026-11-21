@@ -1,0 +1,33 @@
+[site]
+title = "谭韧轩"
+last_updated = "2026 年 11 月"
+[[navigation]]
+title = "简介"
+type = "page"
+target = "about"
+href = "/#about"
+[[navigation]]
+title = "荣誉"
+type = "page"
+target = "honors"
+href = "/#honors"
+[[navigation]]
+title = "动态"
+type = "page"
+target = "news"
+href = "/#news"
+[[navigation]]
+title = "论文"
+type = "page"
+target = "research"
+href = "/#research"
+[[navigation]]
+title = "实习"
+type = "page"
+target = "internship"
+href = "/#internship"
+[[navigation]]
+title = "教育"
+type = "page"
+target = "education"
+href = "/#education"

@@ -1,0 +1,58 @@
+[site]
+title = "Renxuan Tan"
+description = "Renxuan Tan studies language model alignment, reinforcement learning and communication networks at Zhejiang University."
+favicon = "/mark.svg"
+last_updated = "November 2026"
+[author]
+name = "Renxuan Tan"
+title = "PhD Student"
+institution = "Zhejiang University"
+avatar = "/portrait.webp"
+[social]
+email = "ttrx@zju.edu.cn"
+github = "https://github.com/lakjx"
+google_scholar = "https://scholar.google.com/citations?user=XqXm3UIAAAAJ"
+[features]
+enable_likes = false
+enable_one_page_mode = true
+[i18n]
+enabled = true
+locales = ["en", "zh"]
+default_locale = "en"
+mode = "fixed"
+fixed_locale = "en"
+persist = true
+switcher = true
+[i18n.labels]
+en = "English"
+zh = "中文"
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/#about"
+[[navigation]]
+title = "Honors"
+type = "page"
+target = "honors"
+href = "/#honors"
+[[navigation]]
+title = "News"
+type = "page"
+target = "news"
+href = "/#news"
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "research"
+href = "/#research"
+[[navigation]]
+title = "Internship"
+type = "page"
+target = "internship"
+href = "/#internship"
+[[navigation]]
+title = "Education"
+type = "page"
+target = "education"
+href = "/#education"
