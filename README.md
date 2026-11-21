@@ -9,11 +9,12 @@ Use Node.js 22 or later. Run `npm ci` followed by `npm run dev`; visit the local
 ## Edit
 
 - `content/config.toml` and `content_zh/config.toml`: name, email, Scholar link, portrait path, navigation and update date.
-- `content/publications.bib`: published papers, authors, venue, DOI, description, image and preprint URLs. Set `selected = {true}` for the default Highlights view.
-- `content/submissions.json`: additional works shown only in All Works, with ordered author lists, OpenReview links, bilingual summaries and the author-confirmed co-first credit for OVAL.
-- `src/components/home/ResearchHome.tsx`: biography, honors, news, internship, education and publication cards. Paper dates follow the [advisor’s publication list](https://rongpeng.info/publications/); TMC’s rating follows the [CCF journal list](https://www.ccf.org.cn/Academic_Evaluation/CN/). The [NICE team](https://rongpeng.info/team/) and advisor are linked in the biography.
+- `content/publications.bib`: published papers, authors, venues, links and illustrations.
+- `content/submissions.json`: submitted works, ordered author lists, OpenReview links, bilingual summaries and OVAL’s co-first credit. Submission is not acceptance.
+- `src/components/home/ResearchHome.tsx`: ordered highlight IDs, publication cards, internship and education (including scholarships). Paper dates follow the [advisor’s publication list](https://rongpeng.info/publications/); TMC’s rating follows the [CCF journal list](https://www.ccf.org.cn/Academic_Evaluation/CN/).
+- `src/components/home/ProfileSections.tsx` holds the bilingual bio, news and photo descriptions. The three gallery images are in `public/life/`. The journal acceptance months come from the papers’ first pages. The conference entries use the notification months listed by [ACL 2026](https://2026.aclweb.org/calls/main_conference_papers/) and [SPAWC 2025](https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/intelligent-transmission/%5BCall-for-Papers%5D-SPAWC2025.pdf).
 - `public/schools/`: emblems of Zhejiang University and Sichuan University, rendered from [TomBener/uni-logo](https://github.com/TomBener/uni-logo); they belong to the respective institutions.
-- `public/papers/`: cropped original paper figures. OVAL Fig. 1, CHAT Fig. 2, E-TRACE Fig. 1; each published paper uses Fig. 1 from its author preprint. Figures retain their original authorship and are not covered by the template’s MIT license.
+- `public/papers/`: original figures, cropped from the papers. OVAL Fig. 1, CHAT Fig. 2, E-TRACE Fig. 1; Agentic MAC uses Fig. 5 for its results preview and retains Fig. 1 in the expanded view. Other published works use Fig. 1. Figures retain their original authorship and are not covered by the template’s MIT license.
 - `src/app/folio.css`: typography, responsive layout and publication thumbnails.
 
 ## GitHub Pages

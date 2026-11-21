@@ -14,7 +14,6 @@
     "id": "chat",
     "forum": "L3nD0TxkHK",
     "authors": ["Wen Lai", "Yifan Sun", "Renxuan Tan", "Bo Li", "Yingli Shen", "Zhenyun Deng", "Ercong Nie", "Dingnan Jin", "Qing Cui", "Jun Zhou"],
-    "manuscript": true,
     "title": "Black-Box Stubborn Hallucination Detection as Chernoff Active Testing",
     "desc": "When a model gives the same wrong answer repeatedly, CHAT selects new probes to distinguish a stubborn hallucination from a reliable answer.",
     "zh": "当模型反复给出同一个错误答案时，CHAT 主动选择追问，区分顽固幻觉与可靠回答。",
