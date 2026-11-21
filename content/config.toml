@@ -1,7 +1,8 @@
 [site]
 title = "Renxuan Tan"
+browser_title = "lakjx -- Homepage"
 description = "Renxuan Tan studies language model alignment, reinforcement learning and communication networks at Zhejiang University."
-favicon = "/mark.svg"
+favicon = "/favicon.ico"
 last_updated = "November 2026"
 [author]
 name = "Renxuan Tan"

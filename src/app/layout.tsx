@@ -11,13 +11,14 @@ import type { SiteConfig } from '@/lib/config';
 
 export async function generateMetadata(): Promise<Metadata> {
   const config = getConfig();
+  const browserTitle = config.site.browser_title ?? config.site.title;
   const runtimeI18n = getRuntimeI18nConfig(config.i18n);
   const openGraphLocale = runtimeI18n.defaultLocale === 'zh' ? 'zh_CN' : 'en_US';
 
   return {
     title: {
-      default: config.site.title,
-      template: `%s | ${config.site.title}`,
+      default: browserTitle,
+      template: `%s | ${browserTitle}`,
     },
     description: config.site.description,
     keywords: [config.author.name, 'PhD', 'Research', config.author.institution],
